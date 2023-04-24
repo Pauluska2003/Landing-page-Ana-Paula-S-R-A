@@ -1,0 +1,62 @@
+body {background:url(Imagens/Imagem.jpg) ;
+background-size: cover;
+color:white;
+text-align:left;
+margin: 50px 0px 0px 40px;
+font-family:'Montserrat', sans-serif;
+}
+h1{
+font-size: 70px;
+margin-bottom: 10px;
+}
+h2{
+  font-size: 40px;
+}
+p{
+ opacity: 0.8;   
+}
+ul{
+    list-style: none;
+    margin-top: 60px;
+}
+li{
+    display: inline;
+}
+ul li a{
+    font-size: 25px;
+    color: white;
+    text-decoration:none;
+    padding: 10px;   
+}
+.primeiro-paragrafo{
+    margin-bottom: 20px;
+}
+.segundo-paragrafo{
+    margin-bottom: 60px;   
+}
+.botao{
+    text-decoration: none;
+    background-color: pink;
+    color: black;
+    padding: 10px 15px;
+    font-weight: 700;
+}
+.botao:hover {
+background-color: rgb(170, 111, 226);
+    
+}
+ul li a:hover {
+background-color: rgb(143, 126, 159);
+}
+@media (max-width:640px) {
+body{
+background:rgb(51, 12, 87) ;
+text-align:center;
+}  
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 35px;
+}
+}
